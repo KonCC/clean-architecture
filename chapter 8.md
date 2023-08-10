@@ -10,7 +10,7 @@
 
 재무제표를 웹 페이지로 보여주는 시스템이 있다고 해보자. 이해관계자가 동일한 정보를 보고서 형태로 변환해서 흑백 프린터로 출력해 달라고 요청했다고 해보자.
 
-[##_Image|kage@Fnpfs/btsqJrls2tg/XL8x79KqksxY7cJBKwtWs0/img.png|CDM|1.3|{"originWidth":695,"originHeight":230,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/2589bd91-ad6d-46ac-8be5-a54e95e9fb3a)
 
 SRP를 적용한 모습
 
@@ -23,14 +23,15 @@ SRP를 적용한 모습
 
 처리 과정을 클래스 단위로 분할하고, 이들 클래스를 아래와 같이 이중선으로 표시한 컴포넌트 단위로 구분해야 한다.
 
-[##_Image|kage@cVPBKD/btsqRgB6JGv/L2sizoKP4KAq8nqLy7ter1/img.png|CDM|1.3|{"originWidth":695,"originHeight":591,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/1fb196a4-5ca8-4956-a821-092e16a636c6)
+
 
 화살표가 열려 있다면 사용 using 관계이며, 닫혀 있다면 구현 implement 관계 또는 상속 inheritance 관계다. 여기서 주목할 점은 다음과 같다.
 
 1.  모든 의존성이 **소스 코드** 의존성을 나타낸다.(화살표가 A클래스가 B클래스를 호출한다면 B 클래스는 A클래스를 호출할 수 없다)
 2.  이중선은 화살표와 **오직 한 방향으로만** 교차한다. (모든 컴포넌트 관계는 단방향으로만 이루어진다는 뜻)
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/e00a6dd1-9f79-4985-84c3-e19a50fcda41)
 
-[##_Image|kage@zp7sR/btsqM7Z5h2F/kGd5hhBeO2HFZ8eoUf6pXk/img.png|CDM|1.3|{"originWidth":693,"originHeight":342,"style":"alignCenter"}_##]
 
 가장 높은 수준의 정책을 포함하는 컴포넌트는 다른 어떠한 컴포넌트에게도 영향을 받지 않는다.
 
