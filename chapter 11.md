@@ -11,7 +11,8 @@
 - **구체 함수를 오버라이드 하지 말라.** 대체로 구체 함수는 소스 코드 의존성을 필요로 한다. 따라서 구체 함수를 오버라이드하면 이러한 의존성을 제거할 수 없게 되며, 실제로는 그 의존성을 상속하게 된다. 이러한 의존성을 제거하려면, 차라리 추상 함수를 선언하고 구현체들에서 각자의 용도에 맞게 구현해야 한다.
 - **구체적이며 변동성이 크다면 절대로 그 이름을 언급하지 말라.**
 
-[##_Image|kage@diNTLR/btsqJRqaoa9/e891Kt4OBLw6sCIvkq3lH0/img.png|CDM|1.3|{"originWidth":698,"originHeight":347,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/a88641ad-9b90-450f-be64-8bae30a228af)
+
 
 곡선은 시스템을 두가지 컴포넌트로 **분리**한다.
 
