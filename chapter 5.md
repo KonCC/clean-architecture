@@ -28,19 +28,23 @@ C언어에서는 상속을 흉내낼 수 있을 뿐, 상속의 기능을 제공�
 
 ### 의존성 역전
 
-[##_Image|kage@US5y4/btsqJB8PDre/PK5zRqLM5p8MlNMCUEX4kk/img.png|CDM|1.3|{"originWidth":1392,"originHeight":736,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/e392d3bf-1b1d-4ace-8e64-0a96fedc6b57)
+
 
 기존의 소스코드 의존성의 경우, 제어흐름과 동일하게 결정된다.
 
 하지만 다형성을 활용한다면, 소스 코드 의존성의 방향을 스스로 제어할 수 있게된다.
 
-[##_Image|kage@dw5MNv/btsqLw6Izcd/mH2NTYAmkklNoYkRc6Dv7k/img.png|CDM|1.3|{"originWidth":696,"originHeight":346,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/d8053c0d-6c0b-41f6-9648-e6664ee4631e)
+
 
 인터페이스를 활용하여 의존성을 역전시킨 예시
 
 ### 궁극적으로 만들고자 하는 형태
 
-[##_Image|kage@wSHvc/btsqRfiPewK/Cn1Fw2bKwUaGrksg7wCKRK/img.png|CDM|1.3|{"originWidth":694,"originHeight":170,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/3652346c-14ca-4211-b7c0-544d78ead152)
+
+
 
 위 그림을 보면, 비즈니스 룰은 제어흐름에 따라 데이터베이스와 UI를 사용하지만, 의존하지 않는다. 그렇기에 비즈니스 룰은 UI와 데이터베이스와는 독립적으로 배포가 가능하다.
 
