@@ -5,8 +5,7 @@
 ## 가변성의 분리
 
 아키텍쳐를 설계할 때, 가변 컴포넌트와 불변 컴포넌트를 분리하는 방식으로 동시성 문제를 해결 가능하다.
-
-[##_Image|kage@deTwP3/btsqJryVbKi/p4LZCLbtLSKOy4tMkXG5vk/img.png|CDM|1.3|{"originWidth":696,"originHeight":342,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/18cfa697-cb81-4766-a102-7716e1329fe0)
 
 상태 변경은 컴포넌트를 갖가지 동시성 문제에 노출하는 꼴이므로, 흔히 **트랜잭션 메모리** transactional memory 와 같은 실천법을 사용하여 동시 업데이트와 경합 조건 문제로부터 가변 변수를 보호한다.
 
@@ -20,7 +19,8 @@
 
 무한한 저장공간과 처리 능력이 필요해 힘들어 보이지만,현대의 소스 코드 버전 관리 시스템등은 이미 사용하는 중인 전략
 
-[##_Image|kage@Uw9wZ/btsqM8YWp1b/dIeukqoJn15yAXkSDANv6K/img.png|CDM|1.3|{"originWidth":1064,"originHeight":554,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/9879bcf5-04b7-4751-a284-7c600829cd1f)
+
 
 ## 결론
 

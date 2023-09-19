@@ -18,7 +18,8 @@
 
 ## 징후 1: 우발적 중복
 
-[##_Image|kage@GUKz0/btsqRf4eD1L/d8unaOYY2FquBK2bQgcrx0/img.png|CDM|1.3|{"originWidth":690,"originHeight":343,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/50e70b7e-b918-443f-bfcd-6743e994fd07)
+
 
 위 Employee 클래스는 SRP를 위반하는데, 이들 세 가지 메서드가 서로 매우 다른 세 명의 액터를 책임지기 때문이다.
 
@@ -30,7 +31,8 @@
 
 그리고 개발자는 코드 중복을 피하기 위해 이 알고리즘을 regularHours()라는 메서드에 넣었다고 해보자.
 
-[##_Image|kage@csKloI/btsqPZm7VNQ/1iDyPy4HFccwoSndw0Ph1k/img.png|CDM|1.3|{"originWidth":693,"originHeight":298,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/c2762b44-4e53-4250-b55f-d5ec267776c9)
+
 
 이제 CFO 팀에서 초과 근무를 제외한 업무 시간을 계산하는 방식을 약간 수정하기로 결정했다고 하자. 반면 인사를 담당하는 COO 팀에서는 초과 근무를 제외한 업무 시간을 CFO 팀과는 다른 목적으로 사용하기 때문에 이 같은 변경을 원하지 않는다고 해보자.
 
@@ -46,11 +48,12 @@
 
 ## 해결책
 
-[##_Image|kage@cxbdAz/btsqMhIkl23/VeXL1QhoSbc8IJaSEHk0C0/img.png|CDM|1.3|{"originWidth":695,"originHeight":320,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/5b2c09a5-bac4-4b6a-a5aa-6fcf60285729)
+
 
 메서드가 없는 데이터 구조를 만들고, 각 클래스가 해당 데이터를 공유하도록 한다.
 
-[##_Image|kage@cvtPRb/btsqJD0dzKj/AW6p2SWyvdcFYHqXjH9QK0/img.png|CDM|1.3|{"originWidth":688,"originHeight":234,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/b3c78aee-58a8-4b0f-9a2f-5dc96c4bab8b)
 
 세 가지 클래스를 인스턴스화하고 추적해야 하는 문제는 퍼사드패턴으로 해결한다.
 

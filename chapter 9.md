@@ -4,7 +4,8 @@
 
 S 타입의 객체 o1 각각에 대응하는 T 타입 객체 o2가 있고, T 타입을 이용해서 정의한 모든 프로그램 P에서 o2의 자리에 o1을 치환하더라도 P의 행위가 변하지 않는다면, S는 T의 하위 타입이다.
 
-[##_Image|kage@yqPQ5/btsqLkMmWo7/FMRqQ9vEDxKJNPK2pp45Lk/img.png|CDM|1.3|{"originWidth":691,"originHeight":339,"style":"alignCenter"}_##]
+![image](https://github.com/KonCC/clean-architecture/assets/102205852/0ad3b8a9-301c-435e-9f5c-5c9f8832819a)
+
 
 License 하위 타입 중 무엇을 사용하는지에 전혀 의존하지 않기 때문에 , LSP 준수.
 
