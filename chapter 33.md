@@ -6,7 +6,7 @@
 
 # 유스케이스 분석
 
-![chatper34-1.png](https://github.com/KonCC/clean-architecture/blob/main/images/chapter34-1.png)
+![chatper34-1.png](./images/chapter34-1.png)
 
 > 출처: https://hwannny.tistory.com/51
 > 
@@ -18,7 +18,7 @@
 
 - 액터와 유스케이스를 식별했으면, 예비 단계의 컴포넌트 아키텍처를 만들어 볼 수 있다.
 
-![chatper34-2.png](https://github.com/KonCC/clean-architecture/blob/main/images/chapter34-2.png)
+![chatper34-2.png](./images/chapter34-2.png)
 
 > 출처: https://hwannny.tistory.com/51
 > 
