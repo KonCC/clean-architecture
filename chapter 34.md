@@ -8,7 +8,7 @@
 - 해당 코드가 하는 일에 기반해 코드를 분할
 - 의존성은 모두 아래를 향한다.
     
-    ![34-3.png](https://github.com/KonCC/clean-architecture/blob/main/images/chapter34-3.png)
+    ![34-3.png](./images/chapter34-3.png)
   
     > 출처: https://hwannny.tistory.com/51
     > 
@@ -22,7 +22,7 @@
 
 - 서로 연관된 기능, 도메인 개념 또는 Arggregate Root (데이터 변경 단위 연관 객체의 묶음) 에 기반하여 수직으로 코드를 나누는 방식
     
-     ![34-4.png](https://github.com/KonCC/clean-architecture/blob/main/images/chatper34-4.png)
+     ![34-4.png](./images/chatper34-4.png)
 
 > 출처: https://hwannny.tistory.com/51
 > 
@@ -40,7 +40,7 @@
 - 주요 규칙
     - 외부 → 내부를 의존해야 한다.
 
- ![34-5.png](https://github.com/KonCC/clean-architecture/blob/main/images/chapter34-5.png)
+ ![34-5.png](./images/chapter34-5.png)
  
 > 출처: https://hwannny.tistory.com/51
 > 
@@ -58,7 +58,7 @@
     - “**/web 패키지에 있는 타입은 절대 **/data에 있는 타입에 접근하면 안 된다” 같은 규칙을 만들어야 한다.
 - 컴로넌트 기반 패키지는 큰 단위의 단일 컴포넌트와 관련된 모든 책임을 하나의 자바 패키지로 묶는다.
 
- ![34-6.png](https://github.com/KonCC/clean-architecture/blob/main/images/chapter34-6.png)
+ ![34-6.png](./images/chapter34-6.png)
  
 > 출처: https://hwannny.tistory.com/51
 > 
@@ -75,7 +75,7 @@
 - public을 사용하면 패키지는 단순히 조직화를 위한 매커니즘으로 전락한다.
 - 앞에서 설명한 네가지 아키텍처는 본질적으로 같아진다.
     
-    ![chapter 34-7.png](https://github.com/KonCC/clean-architecture/blob/main/images/chapter34-7.png)
+    ![chapter 34-7.png](./images/chapter34-7.png)
 
 > 출처: https://hwannny.tistory.com/51
 > 
