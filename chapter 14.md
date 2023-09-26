@@ -31,7 +31,7 @@
 
 ## 순환이 컴포넌트 의존성 그래프에 미치는 영향
 
-![chapter14-1.png](images/chapter14-1.png)
+![chapter14-1.png](./images/chapter14-1.png)
 
 - Authorizer → Interactors → Entities → Authorizer 로 순환 구조가 형성되었다고 하자
 - Entities를 사용하는 Database 컴포넌트를 릴리스하려면 Entities와 Entities가 의존하고 있는 Authorizer, Authorizer가 의존하고 있는 Interactors까지 다 릴리스 해야 한다.
@@ -41,12 +41,12 @@
 
 1. 의존성 역전 원칙 (DIP)를 사용한다.
 
-![chapter14-2.png](images/chapter14-2.png)
+![chapter14-2.png](./images/chapter14-2.png)
 
 
 1. Entities와 Authorizer가 모든 의존하는 새로운 컴포넌트를 만듦
     
-    ![chapter14-3.png](images/chapter14-3.png)
+    ![chapter14-3.png](./images/chapter14-3.png)
     
     - 흐트러짐 (Jitters)
         - 요구사항이 변경되면 컴포넌트의 의존성 구조는 서서히 흐트러지며 성장한다.
@@ -76,7 +76,7 @@
 
 - 컴포넌트를 변경하기 어렵게 만드는 법 → 수많은 다른 컴포넌트가 해당 컴포넌트에 의존하게 만드는 것
     
-   ![chapter14-4.png](images/chapter14-4.png)
+   ![chapter14-4.png](./images/chapter14-4.png)
 
     
 - X는 안정적이며 세 컴포넌트를 책임지는 책임성이 있고 X가 의존하는 것은 없으므로 독립적이다
@@ -92,7 +92,7 @@
 - I( 불안정성) = Fan-out / (Fan-in + Fan-out)
     - 0이면 안정된 컴포넌트, 1이면 불안정한 컴포넌트
 
-![chapter14-5.png](images/chapter14-5.png)
+![chapter14-5.png](./images/chapter14-5.png)
 
 - Cc
     - Fan-in =3
@@ -136,7 +136,7 @@
 
 - 안정성과 추상화 정도 사이의 관계
     
-    ![chapter14-6.png](images/chapter14-6.png)
+    ![chapter14-6.png](./images/chapter14-6.png)
 
     
 - 최고로 안정적이고 추상화된 컴포넌트 = (0,1)
