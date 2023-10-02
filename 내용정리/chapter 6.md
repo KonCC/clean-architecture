@@ -1,6 +1,6 @@
-# 6장
+# 6장 함수형 프로그래밍
 
-우리가 함수형 언어를 쓰지 않는다면 , race condition , deadlock , concurrenct update에서 자유롭지 못하다.
+우리가 함수형 언어를 쓰지 않는다면 race condition , deadlock , concurrenct update에서 자유롭지 못하다.
 
 ## 가변성의 분리
 
