@@ -18,11 +18,11 @@
 
 |          발표일           |                                       챕터                                        |        발표자       |    발표자료  |
 | :---------------------: | :-----------------------------------------------------------------------------: | :----------------: | :--------: |
-| 08.03 |        1장, 2장        |   박성준   | [chapter 1-2]() |
+| 08.03 |        1장, 2장        |   박성준   | [chapter 1-2](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%201%2C%202.pdf) |
 | 08.08 |        3장, 4장        |   홍승택   | [chapter 3-4](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%203%2C%204.pdf) |
 | 08.10 |        5장, 6장, 7장, 8장, 9장, 10장, 11장        |   강대훈   | [chapter 5-11](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%205%2C%206%2C%207%2C%208%2C%209%2C%2010%2C%2011.pdf) |
-| 08.23 |        12장, 13장, 14장, 15장        |   황유란   | [chapter 12-15]() |
-| 09.03 |        16장, 17장, 18장, 19장        |   박성준   | [chapter 16-19]() |
+| 08.23 |        12장, 13장, 14장, 15장        |   황유란   | chapter 12-15 |
+| 09.03 |        16장, 17장, 18장, 19장        |   박성준   | [chapter 16-19](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%2016%2C%2017%2C%2018%2C%2019.pdf) |
 | 09.08 |        20장, 21장, 22장, 23장, 24장        |   홍승택   | [chapter 20-24](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%2020%2C%2021%2C%2022%2C%2023%2C%2024.pdf) |
 | 09.15 |        25장, 26장, 27장, 28장, 29장        |   강대훈   | [chapter 25-29](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%2025%2C%2026%2C%2027%2C%2028%2C%2029.pdf) |
 | 09.22 |        30장, 31장, 32장, 33장, 34장        |   황유란   | [chapter 30-34](https://github.com/KonCC/clean-architecture/blob/main/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/chapter%2030%2C%2031%2C%2032%2C%2033%2C%2034.pdf) |
