@@ -14,11 +14,11 @@
 - 데이터의 흐름과 소스 코드 의존성이 항상 같은 방향을 가리키지 않음
     - 여기서 의존성은 소스코드와 컴파일타임의 의존성을 말함 - ex) import & using
 - 소스코드 의존성은 수준에 따라 결합되어야 함
-![chapter19-1.png](images/chapter19-1.png)
+![chapter19-1.png](../images/chapter19-1.png)
 
 ### 정책을 컴포넌트로 묶는 기준은 정책이 변경되는 방식에 달려있다
 - 동일한 이유로 동일한 시점에 변경되는 정책은 함께 묶임 By SRP & CCP
-![chapter19-2.png](images/chapter19-2.png)
+![chapter19-2.png](../images/chapter19-2.png)
 
 - 고수준은 덜 빈번하게, 저수준은 빈번하게 변경됨
 #### 저수준 컴포넌트가 고수준 컴포넌트에 플러그인 되어야 함

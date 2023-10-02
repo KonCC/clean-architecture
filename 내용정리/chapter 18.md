@@ -13,10 +13,10 @@
 - 동적 다형성에 의존해서 내부 의존성 관리
 
 저수준 클라이언트와 고수준 서비스
-![img](images/chapter%2018-1.png)
+![img](../images/chapter%2018-1.png)
 
 고수준 클라이언트와 저수준 서비스
-![img](images/chapter%2018-2.png)
+![img](../images/chapter%2018-2.png)
 
 > 위처럼 규칙적인 방식으로 구조를 분리하면 모노리틱 구조라도 개발, 테스트, 배포에 큰 도움이 된다
 
